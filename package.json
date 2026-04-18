@@ -1,0 +1,33 @@
+{
+  "name": "basic-blog-post-viewer-mean-stack",
+  "version": "1.0.0",
+  "description": "A simple blog post viewer built with the MEAN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js",
+    "client:install": "cd client && npm install",
+    "client:build": "cd client && npx ng build --configuration=production",
+    "client:dev": "cd client && npx ng serve --port 4200",
+    "dev": "start /B node server.js && cd client && npx ng serve --port 4200 --open",
+    "build": "cd client && npx ng build --configuration=production",
+    "vercel-build": "cd client && npm install && npx ng build --configuration=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omar-Lash1n/basic-blog-post-viewer-mean-stack.git"
+  },
+  "keywords": ["mean", "blog", "angular", "express", "mongodb", "nodejs"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Omar-Lash1n/basic-blog-post-viewer-mean-stack/issues"
+  },
+  "homepage": "https://github.com/Omar-Lash1n/basic-blog-post-viewer-mean-stack#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1"
+  }
+}

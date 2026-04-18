@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Build Outputs
+dist/
+client/dist/
+client/.angular/
+
+# Environment Variables
+.env
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+*.log
