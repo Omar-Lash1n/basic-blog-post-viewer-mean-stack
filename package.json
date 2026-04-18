@@ -20,6 +20,9 @@
   "keywords": ["mean", "blog", "angular", "express", "mongodb", "nodejs"],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "20.x"
+  },
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Omar-Lash1n/basic-blog-post-viewer-mean-stack/issues"
